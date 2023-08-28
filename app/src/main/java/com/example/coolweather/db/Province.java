@@ -1,6 +1,6 @@
 package com.example.coolweather.db;
 import org.litepal.crud.LitePalSupport;
-public class province extends LitePalSupport {
+public class Province extends LitePalSupport {
     private int id;  //实体类id
     private String provinceName;  //记录省的名字
     private int provinceCode;  //记录省的代号

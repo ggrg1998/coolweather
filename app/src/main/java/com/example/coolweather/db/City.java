@@ -2,7 +2,7 @@ package com.example.coolweather.db;
 
 import org.litepal.crud.LitePalSupport;
 
-public class city extends LitePalSupport {
+public class City extends LitePalSupport {
     private int id;
     private String cityName;  //记录市的名字
     private int cityCode;  //记录市的代号
