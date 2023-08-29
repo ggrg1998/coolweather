@@ -5,7 +5,7 @@ import org.litepal.crud.LitePalSupport;
 public class County extends LitePalSupport {
     private int id;
     private String countyName;  //记录县的名字
-    private int wratherId;  //记录县对应天气的id
+    private String wratherId;  //记录县对应天气的id
     private int cityId;  //记录当前县所属市的id
 
     public int getId() {
@@ -24,11 +24,11 @@ public class County extends LitePalSupport {
         this.countyName = countyName;
     }
 
-    public int getWratherId() {
+    public String getWratherId() {
         return wratherId;
     }
 
-    public void setWratherId(int wratherId) {
+    public void setWratherId(String wratherId) {
         this.wratherId = wratherId;
     }
 
@@ -39,4 +39,5 @@ public class County extends LitePalSupport {
     public void setCityId(int cityId) {
         this.cityId = cityId;
     }
+
 }
